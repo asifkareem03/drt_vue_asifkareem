@@ -213,11 +213,17 @@ h3 {
 
     button {
       background-color: $element-bg-color;
+      color: #fafafa;
     }
 
     .el-pager {
       li {
         background-color: $element-bg-color;
+        color: #fafafa;
+
+        &.is-active {
+          color: $primary-button-bg-color;
+        }
       }
     }
   }
