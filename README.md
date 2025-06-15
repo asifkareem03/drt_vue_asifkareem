@@ -1,7 +1,36 @@
-# Vue 3 + Vite
+# Satellite Viewer (Vue 3 + Element Plus)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a Vue 3 application that displays satellite data in a performant, virtualized list using `vue-virtual-scroller`. It allows filtering, searching, and selection of satellite objects.
 
-## Recommended IDE Setup
+## 🛠️ Tech Stack
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Vue 3**
+- **Element Plus** for UI components
+- **Lodash** (for debouncing)
+- **Vue Virtual Scroller**
+- **Vite** for development and bundling
+
+---
+
+## 📦 Project Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/asifkareem03/drt_vue_asifkareem.git
+cd drt_vue_asifkareem
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+This will start the app at:http://localhost:5173
